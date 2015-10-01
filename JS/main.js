@@ -49,13 +49,11 @@ answer1.appendChild(textNode);
 }());
 
 
-
-
-
-
-
-
 //Question 2
+//IIFE
+
+;( function () {
+
 
   var itemTitle = [];
 
@@ -65,20 +63,33 @@ var merchList = items.forEach (function(item) {
     }
   });
 
-
     console.log(itemTitle);
  
-
 var answer2 = document.querySelector('#answer2');
-var textNode = document.createTextNode(itemTitle.join([]);
+var textNode = document.write(itemTitle.join("<br>"));
 
-answer2.appendChild(textNode "\n\n\n");
+}());
 
 
-});
 
-  //Question 3
 
-  
+//Question 3
+//IIFE
+
+;( function () {
+
+
+
+
+
+
+
+
+}());
+
+
+
+
+
 
 
