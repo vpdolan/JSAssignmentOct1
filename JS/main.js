@@ -12,13 +12,13 @@
 //Add all of the prices together
   var prices = items.map ( function (item) {
     return item.price;
-)};
+});
 
   console.log(prices);
 
-  prices.filter (function (prices)
+  // prices.filter (function (prices)
     
-  return prices >= 14.00 && <= 18.00;
+  // return prices >= 14.00 && <= 18.00;
 
 var sum = prices.reduce( function (prev, next) {
   return prev + next;
@@ -26,7 +26,7 @@ var sum = prices.reduce( function (prev, next) {
 
   console.log(sum);
 //Divide by total number of items
-  var avg = sum / items.length;
+  var avg = sum / prices.length;
     console.log(avg);
 
 //Convert to two decimal places
@@ -77,6 +77,19 @@ var textNode = document.write(itemTitle.join("<br>"));
 //IIFE
 
 ;( function () {
+
+var beer = [];
+
+
+    items.filter (function (item) {
+     if (item.currency_code === 'GBP');
+        return item.currency_code;
+          console.log(item.currency_code);
+      });
+         
+
+        
+             
 
 
 
