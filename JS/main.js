@@ -82,10 +82,26 @@ var beer = [];
 
 
     items.filter (function (item) {
-     if (item.currency_code === 'GBP');
-        return item.currency_code;
-          console.log(item.currency_code);
-      });
+     if (item.currency_code === 'GBP' && item.price >17){
+       beer.push (item.title + " costs" + " \u00A3" + item.price);
+      }
+      
+    });
+      console.log(beer);
+    
+
+      // else if (item.price > 17.00){
+      //    beer.push (item.price)
+      // }
+        // console.log(item.price);
+
+        var answer3 = document.querySelector('#answer3');
+        var textNode = document.createTextNode(beer);
+
+        answer3.appendChild(textNode);
+
+
+
          
 
         
