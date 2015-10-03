@@ -98,14 +98,31 @@ var beer = [];
         var answer3 = document.querySelector('#answer3');
         var textNode = document.createTextNode(beer);
 
-        answer3.appendChild(textNode);
+        answer3.appendChild(textNode);       
+
+
+}());
 
 
 
-         
+//question4
 
-        
-             
+//IIFE
+
+;( function () {
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -115,7 +132,6 @@ var beer = [];
 
 
 }());
-
 
 
 
