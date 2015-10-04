@@ -66,7 +66,9 @@ var merchList = items.forEach (function(item) {
     console.log(itemTitle);
  
 var answer2 = document.querySelector('#answer2');
-var textNode = document.write(itemTitle.join("<br>"));
+var textNode = document.createTextNode(itemTitle.join("<br>"));
+
+    answer2.appendChild(textNode);
 
 }());
 

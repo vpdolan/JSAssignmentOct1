@@ -1,35 +1,126 @@
-// color pallette
-// $navcolor: #503726;
+// color pallette//
+  $navcolor: #503726;
+  $navbackground: #FFF;
+  $bodybackground: #F2EBDE;
+  $footercolor: $3C3C3B;
 
-
-
-
-ul {
-  //list-style: none;
-  color: #503726;
-  font-size: 10px;
-  
-}
-
-nav 
-
-  
-
-
-
-}
-
-header {
-background-image: url("../Images/banner.jpg");
-width: 100%;
-height: 125px;
-padding-bottom: 90px;
-padding-right: 200px;
-
-
-}
 
 body {
 
+  .container {
+  margin: 0px auto;
+  width: 95%;
+  height: 2000px;
+  color: $bodybackground;
+}
+
+
+
+  ul {
+  list-style: none;
+  color: #503726;
+  font-size: 10px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+
+  
+}
+
+//Image//
+header {
+  background-image: url("../Images/banner.jpg");
+  height: 85px; 
+  width: 99.5%;
+  padding-top: 50px;
+  padding-left: 2px;
+  padding-right: 1px;
+  margin: 0px auto;
+  display: block;
+  background-position: center;
+  
 
 }
+
+
+ul {
+  list-style: none;
+  font-size: 18px;
+  border-left: 25px;
+  vertical-align: middle;
+   }
+
+
+img {
+  width: 100%;
+  margin: 0;
+
+
+}
+
+
+//Answers//
+.container {
+
+
+}
+
+.Answer1 {
+
+}
+
+.Answer2 {
+
+
+}
+
+.Answer3 {
+
+
+}
+
+.Answer4 {
+
+}
+
+.Answer5 {
+
+}
+
+.Answer6 {
+
+}
+
+//footer//
+
+footer {
+  list-style: none;
+  width: 99.5%;
+  height: 50px;
+  background-color: #3C3C3B;
+  text-align: center;
+  border: 1px solid black;
+  color: white;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-bottom: 2px;
+  vertical-align: text-bottom;
+  font-size: 8px;
+
+}
+
+
+
+
+
+
+  
+ 
+
+  
+
+
+  
+  
+}
+
