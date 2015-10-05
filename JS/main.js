@@ -121,10 +121,43 @@ var beer = [];
 
 
 
+}());
+
+
+//Question 5
+
+//IIFE
+
+;( function () {})
 
 
 
+}());
 
+
+//Question 6
+
+//IIFE
+
+;( function ()) {
+
+var item.homeMade = [];
+
+
+
+  items.map (function (item) {
+    if (item.who_made === 'i did') {
+      homeMade.push (item.who_made + idid.length);
+    }
+    console.log(idid.length);
+
+   
+    document.write (idid.length + " were made by their sellers")
+    var answer6 = document.querySelector('#answer6');
+        var textNode = document.createTextNode(homeMade);
+
+        answer6.appendChild(textNode);     
+  }
 
 
 
@@ -134,9 +167,6 @@ var beer = [];
 
 
 }());
-
-
-
-
+}
 
 
