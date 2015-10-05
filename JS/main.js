@@ -34,7 +34,7 @@ var sum = prices.reduce( function (prev, next) {
 var converted = avg.toFixed(2);
  console.log(converted);
 
- //make it a string
+ //make it a string//
 
  var str = 'The average price is $' + converted;
  console.log(str);
@@ -143,28 +143,18 @@ var beer = [];
 
 var item.homeMade = [];
 
-
-
-  items.map (function (item) {
-    if (item.who_made === 'i did') {
-      homeMade.push (item.who_made + idid.length);
+var byMaker = item.filter (function (x) {
+  var maker = x.who_made;
+    if (maker.indexOf ('i_did') !== -1 {
+      homeMade.push(x.title)
     }
-    console.log(idid.length);
-
-   
-    document.write (idid.length + " were made by their sellers")
+})
+ 
+    
     var answer6 = document.querySelector('#answer6');
-        var textNode = document.createTextNode(homeMade);
-
+    var textNode = document.createTextNode(idid.length + " were made by their sellers"); 
         answer6.appendChild(textNode);     
-  }
-
-
-
-
-
-
-
+  
 
 }());
 }
