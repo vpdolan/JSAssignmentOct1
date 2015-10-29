@@ -113,22 +113,42 @@ var beer = [];
 
 ;( function () {
 
+  // var madeOfWood = []
 
+  // var typeOfMaterial = item.filter(function(x) {
+  //   if composedOfWood.indexOf('wood') !== -1 {
+  //     madeOfWood.push(x.title);
+  //   }
+  // });
 
+  var results = [];
 
+  items.forEach = (function(item) {
+    if (items.material === wood) {
+      results.push(item);
+    }
+  });
 
+  var answer4 = document.querySelector('#answer4');
+   resultss.forEach(function(x) {
 
+    var textNode = document.createTextNode(x);
+    var linebreak = document.createElement('br');
 
-
+   answer4.appendChild(textNode4);
+   answer4.appendChild(linebreak);
+   }) 
+   
 
 }());
+
 
 
 //Question 5
 
 //IIFE
 
-;( function () {})
+;( function () {
 
 
 
@@ -139,16 +159,15 @@ var beer = [];
 
 //IIFE
 
-;( function ()) {
+;( function () {
 
 var item.homeMade = [];
 
 var byMaker = item.filter (function (x) {
   var maker = x.who_made;
-    if (maker.indexOf ('i_did') !== -1 {
-      homeMade.push(x.title)
-    }
-})
+  if (maker.indexOf ('i_did') !== -1) {
+    homeMade.push(x.title)
+  }
  
     
     var answer6 = document.querySelector('#answer6');
@@ -157,6 +176,6 @@ var byMaker = item.filter (function (x) {
   
 
 }());
-}
+
 
 
