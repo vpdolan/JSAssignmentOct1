@@ -167,7 +167,7 @@ var answerFour = document.querySelector('#answer4');
  var answerFive = document.querySelector('answer5');
    answerFive.innerText = '';
    goods.forEach(function(item) {
-    answerFive.appendChild(document.createTextNode(item.title + "n\n\n" + item.materials + "n\n\n" + item.materials.length + "n\n\n");
+    answerFive.appendChild(document.createTextNode(item.title + <br> + item.materials + <br> + item.materials.length + <br>);
    };
 
 

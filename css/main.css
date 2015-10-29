@@ -49,7 +49,3 @@ css/main.css:2
 /usr/bin/sass:23:in `load'
 /usr/bin/sass:23:in `<main>'
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"0px auto\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of css/main.css\A \A 1: body {\A 2:   margin: 0px auto;\A 3:   width: 100%;\A 4:   border: 1px solid #6F6D66; }\A 5: \A 6: header {\A 7:   margin: 0; }"; }
