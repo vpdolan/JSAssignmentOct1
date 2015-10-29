@@ -111,16 +111,16 @@ var beer = [];
 
 //IIFE
 
-;( function () {
+// ;( function () {
 
-   var madeOfWood = []
+//    var madeOfWood = []
 
-   var typeOfMaterial = item.filter(function(x) {
-     if (composedOfWood.indexOf ('wood') !== -1) {
-       madeOfWood.push(x.title);
-     }
-   });
-console.log(title);
+//    var typeOfMaterial = item.filter(function(x) {
+//      if (composedOfWood.indexOf ('wood') !== -1) {
+//        madeOfWood.push(x.title);
+//      }
+//    });
+// console.log(title);
 
   // var results = [];
 
@@ -130,18 +130,27 @@ console.log(title);
   //   }
   // });
 
-  var answer4 = document.querySelector('#answer4');
-   results.forEach(function(x) {
+  // var answer4 = document.querySelector('#answer4');
+  //  results.forEach(function(x) {
 
-    var textNode = document.createTextNode(x);
-    var linebreak = document.createElement('br');
+  //   var textNode = document.createTextNode(x);
+  //   var linebreak = document.createElement('br');
 
-   answer4.appendChild(textNode4);
-   answer4.appendChild(linebreak);
-   }) 
+  //  answer4.appendChild(textNode4);
+  //  answer4.appendChild(linebreak);
+  //  }) 
    
+var wood = items.filter(function (item){
+  if(item.materials.indexOf("wood") !== -1)
+    return item.materials 
+});
 
-}());
+var answerFour = document.querySelector('#answer4');
+  answerFour.innerText = '';
+  wood.forEach(function(item){
+    answerFour.appendChild(document.createTextNode(item.title + "is made of wood" + "n\n\n" ));
+  });
+
 
 
 
@@ -149,11 +158,19 @@ console.log(title);
 
 //IIFE
 
-;( function () {
+ var goods = items.filter (function (item) {
+  if(item.materials.length > 7)
+    return item.materials 
+
+ });
+
+ var answerFive = document.querySelector('answer5');
+   answerFive.innerText = '';
+   goods.forEach(function(item) {
+    answerFive.appendChild(document.createTextNode(item.title + "n\n\n" + item.materials + "n\n\n" + item.materials.length + "n\n\n");
+   };
 
 
-
-}());
 
 
 //Question 6
