@@ -1,0 +1,80 @@
+body {
+  margin: 0px auto;
+  width: 100%;
+  border: 1px solid #6F6D66; }
+
+header {
+  margin: 0; }
+
+ul {
+  list-style: none;
+  color: #503726;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-bottom: 1px;
+  background-color: #FFF; }
+
+nav {
+  background-image: url("../Images/banner.jpg");
+  height: 85px;
+  width: 99.5%;
+  padding-top: 50px;
+  padding-left: 2px;
+  padding-right: 1px;
+  margin: 0px auto;
+  display: block;
+  background-position: center; }
+
+img {
+  width: 100%;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  background-color: #F2EBDE;
+  margin: 0;
+  padding-top: 20px; }
+
+.Answer1, .Answer2, .Answer3, .Answer4, .Answer5, .Answer6 {
+  color: #8B8880;
+  position: relative;
+  text-align: center; }
+
+h3 {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  z-index: 1; }
+
+h3:before {
+  border-top: 1px solid #DAD4C8;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+
+h3 span {
+  padding: 0 10px;
+  background: #F2EBDE; }
+
+footer {
+  list-style: none;
+  width: 99.5%;
+  height: 35px;
+  background-color: #3C3C3B;
+  text-align: center;
+  border: 1px solid black;
+  color: white;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+  font-size: 8px;
+  padding-top: 25px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -113,24 +113,25 @@ var beer = [];
 
 ;( function () {
 
-  // var madeOfWood = []
+   var madeOfWood = []
 
-  // var typeOfMaterial = item.filter(function(x) {
-  //   if composedOfWood.indexOf('wood') !== -1 {
-  //     madeOfWood.push(x.title);
+   var typeOfMaterial = item.filter(function(x) {
+     if (composedOfWood.indexOf ('wood') !== -1) {
+       madeOfWood.push(x.title);
+     }
+   });
+console.log(title);
+
+  // var results = [];
+
+  // items.forEach = (function(item) {
+  //   if (items.material === wood) {
+  //     results.push(item);
   //   }
   // });
 
-  var results = [];
-
-  items.forEach = (function(item) {
-    if (items.material === wood) {
-      results.push(item);
-    }
-  });
-
   var answer4 = document.querySelector('#answer4');
-   resultss.forEach(function(x) {
+   results.forEach(function(x) {
 
     var textNode = document.createTextNode(x);
     var linebreak = document.createElement('br');

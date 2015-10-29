@@ -1,78 +1,55 @@
-body {
-  margin: 0px auto;
-  width: 100%;
-  border: 1px solid #6F6D66; }
+/*
+Error: Invalid CSS after "0px auto": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of css/main.css
 
-header {
-  margin: 0; }
+1: body {
+2:   margin: 0px auto;
+3:   width: 100%;
+4:   border: 1px solid #6F6D66; }
+5: 
+6: header {
+7:   margin: 0; }
 
-ul {
-  list-style: none;
-  color: #503726;
-  font-size: 16px;
-  padding-left: 25px;
-  padding-bottom: 1px;
-  background-color: #FFF; }
-
-nav {
-  background-image: url("../Images/banner.jpg");
-  height: 85px;
-  width: 99.5%;
-  padding-top: 50px;
-  padding-left: 2px;
-  padding-right: 1px;
-  margin: 0px auto;
-  display: block;
-  background-position: center; }
-
-img {
-  width: 100%;
-  margin: 0; }
-
-.container {
-  width: 100%;
-  background-color: #F2EBDE;
-  margin: 0;
-  padding-top: 20px; }
-
-.Answer1, .Answer2, .Answer3, .Answer4, .Answer5, .Answer6 {
-  color: #8B8880;
-  position: relative;
-  text-align: center; }
-
-h3 {
-  margin-top: 20px;
-  position: relative;
-  text-align: center;
-  z-index: 1; }
-
-h3:before {
-  border-top: 1px solid #DAD4C8;
-  content: "";
-  margin: 0 auto;
-  position: absolute;
-  top: 12px;
-  left: 10px;
-  right: 10px;
-  bottom: 0;
-  width: 100%;
-  z-index: -1; }
-
-h3 span {
-  padding: 0 10px;
-  background: #F2EBDE; }
-
-footer {
-  list-style: none;
-  width: 99.5%;
-  height: 35px;
-  background-color: #3C3C3B;
-  text-align: center;
-  border: 1px solid black;
-  color: white;
-  margin-left: 2px;
-  margin-right: 0px;
-  margin-bottom: 2px;
-  vertical-align: middle;
-  font-size: 8px;
-  padding-top: 25px; }
+Backtrace:
+css/main.css:2
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script/lexer.rb:221:in `expected!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script/parser.rb:600:in `assert_done'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script/parser.rb:63:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script/parser.rb:183:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/script.rb:27:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:1130:in `parse_script'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:720:in `parse_property'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:691:in `parse_property_or_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:657:in `parse_line'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:535:in `build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:554:in `block in append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:553:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:553:in `append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:544:in `block in build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:537:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:537:in `build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:554:in `block in append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:553:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:553:in `append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:293:in `watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin.rb:108:in `method_missing'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:23:in `load'
+/usr/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"0px auto\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of css/main.css\A \A 1: body {\A 2:   margin: 0px auto;\A 3:   width: 100%;\A 4:   border: 1px solid #6F6D66; }\A 5: \A 6: header {\A 7:   margin: 0; }"; }
